@@ -16,6 +16,7 @@ html {
   background-size: cover;
   min-height: 100vh;
   background-attachment: fixed;
+  font-style: italic;
 }
 
 .hero-body .container {
@@ -143,12 +144,104 @@ html {
   0% {
     opacity: 0;
   }
-  
+
   50% {
     opacity: 0.5;
   }
- 
+
   100% {
     opacity: 1;
   }
+}
+/*finishing hero style*/
+
+.main {
+  font-style: normal;
+  margin-top: 1rem;
+}
+
+.txt-disclaimer {
+  font-size: x-large;
+}
+
+.txt-disclaimer strong {
+  font-weight: normal;
+}
+.list-objectives ul {
+  list-style: circle;
+  font-weight: bolder;
+}
+.disclaimer {
+  align-items: center;
+}
+
+.container1 {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  overflow-y: scroll;
+  font-family: poppins;
+}
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 20px;
+  background-color: #1e1f22;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.divisor{
+  background-image: url("../images/ralph-kelly-z9fFOzL5L_Y-unsplash.jpg");
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  height: 200px;
+  background-attachment: fixed;
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10vw;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
