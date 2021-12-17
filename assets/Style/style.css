@@ -160,63 +160,19 @@ html {
   margin-top: 1rem;
 }
 
-.txt-disclaimer {
-  font-size: x-large;
+.disclaimer{
+  margin-bottom: 3rem;
+}
+
+.disclaimer-txt{
+  padding: 1rem;
+  font-size:smaller;
 }
 
 .txt-disclaimer strong {
   font-weight: normal;
 }
-.list-objectives ul {
-  list-style: circle;
-  font-weight: bolder;
-}
-.disclaimer {
-  align-items: center;
-}
 
-.container1 {
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 100px 0;
-  overflow-y: scroll;
-  font-family: poppins;
-}
-.timeline {
-  width: 80%;
-  height: auto;
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.timeline ul {
-  list-style: none;
-}
-.timeline ul li {
-  padding: 20px;
-  background-color: #1e1f22;
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-.timeline ul li:last-child {
-  margin-bottom: 0;
-}
-.timeline-content h1 {
-  font-weight: 500;
-  font-size: 25px;
-  line-height: 30px;
-  margin-bottom: 10px;
-}
-.timeline-content p {
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 300;
-}
 .divisor{
   background-image: url("../images/ralph-kelly-z9fFOzL5L_Y-unsplash.jpg");
   background-position: bottom;
@@ -224,6 +180,7 @@ html {
   position: relative;
   height: 200px;
   background-attachment: fixed;
+  margin-top: 10rem;
 }
 
 .text {
@@ -244,4 +201,57 @@ html {
   -moz-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
+}
+
+.features{
+  margin-top: 3rem;
+}
+
+.teste{
+  max-height:300px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  transition: all 1s;
+  transition: max-height 0.8s ea8se-out;
+  -webkit-transition: max-height 0.8s ea8se-out;
+  -moz-transition: max-height 0.8s ea8se-out;
+  -ms-transition: max-height 0.8s ea8se-out;
+  -o-transition: max-height 0.8s ea8se-out;
+}
+
+.arrow1 span {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid transparent;
+  position: absolute;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: rotate(45deg);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.active{
+  max-height:fit-content;
+  transition: all 1s;
+  -webkit-transition: max-height 0.8s ea8se-out;
+  -moz-transition: max-height 0.8s ea8se-out;
+  -ms-transition: max-height 0.8s ea8se-out;
+  -o-transition: max-height 0.8s ea8se-out;
+  transition: max-height 0.8s ea8se-out;
+}
+
+.active-arrow span{
+  transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+}
+
+.contact{
+  margin-top: 8rem;
 }
