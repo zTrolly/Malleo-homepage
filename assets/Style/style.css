@@ -160,21 +160,21 @@ html {
   margin-top: 1rem;
 }
 
-.disclaimer{
+.disclaimer {
   margin-bottom: 3rem;
 }
 
-.disclaimer-txt{
+.disclaimer-txt {
   padding: 1rem;
-  font-size:smaller;
+  font-size: smaller;
 }
 
 .txt-disclaimer strong {
   font-weight: normal;
 }
 
-.divisor{
-  background-image: url("../images/ralph-kelly-z9fFOzL5L_Y-unsplash.jpg");
+.divisor {
+  background-image: url('../images/ralph-kelly-z9fFOzL5L_Y-unsplash.jpg');
   background-position: bottom;
   background-size: cover;
   position: relative;
@@ -186,7 +186,7 @@ html {
 .text {
   background-color: white;
   color: black;
-  font-size: 10vw;
+  font-size: 7vw;
   font-weight: bold;
   margin: 0 auto;
   padding: 10px;
@@ -203,12 +203,12 @@ html {
   -o-transform: translate(-50%, -50%);
 }
 
-.features{
+.features {
   margin-top: 3rem;
 }
 
-.teste{
-  max-height:300px;
+.teste {
+  max-height: 300px;
   overflow-y: hidden;
   overflow-x: hidden;
   transition: all 1s;
@@ -234,8 +234,8 @@ html {
   margin-bottom: 2rem;
 }
 
-.active{
-  max-height:fit-content;
+.active {
+  max-height: fit-content;
   transition: all 1s;
   -webkit-transition: max-height 0.8s ea8se-out;
   -moz-transition: max-height 0.8s ea8se-out;
@@ -244,7 +244,7 @@ html {
   transition: max-height 0.8s ea8se-out;
 }
 
-.active-arrow span{
+.active-arrow span {
   transform: rotate(225deg);
   -webkit-transform: rotate(225deg);
   -moz-transform: rotate(225deg);
@@ -252,6 +252,43 @@ html {
   -o-transform: rotate(225deg);
 }
 
-.contact{
+.contact {
+  min-width: 300px;
+  width: 70%;
+  margin: 0 auto;
   margin-top: 8rem;
+}
+
+.form-contact {
+  color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+
+}
+
+.form-contact input {
+  width: 100%;
+  height: 35px;
+}
+
+.form-contact textarea {
+  width: 100%;
+  resize: none;
+}
+
+.form-contact .submit-btn input {
+  width: 50%;
+  margin: 0 auto;
+}
+.submit-btn {
+  display: flex;
+  justify-content: center;
 }
