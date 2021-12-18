@@ -6,6 +6,8 @@ html {
   font-family: Poppins;
 }
 
+/*fim reset*/
+
 .btn-feito {
   text-decoration: none;
 }
@@ -173,6 +175,8 @@ html {
   font-weight: normal;
 }
 
+/*fim disclaimer*/
+
 .divisor {
   background-image: url('../images/ralph-kelly-z9fFOzL5L_Y-unsplash.jpg');
   background-position: bottom;
@@ -273,6 +277,8 @@ html {
   -o-border-radius: 12px;
 
 }
+
+/*fim features*/
 
 .form-contact input {
   width: 100%;
