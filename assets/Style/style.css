@@ -216,11 +216,11 @@ html {
   overflow-y: hidden;
   overflow-x: hidden;
   transition: all 1s;
-  transition: max-height 0.8s ea8se-out;
-  -webkit-transition: max-height 0.8s ea8se-out;
-  -moz-transition: max-height 0.8s ea8se-out;
-  -ms-transition: max-height 0.8s ea8se-out;
-  -o-transition: max-height 0.8s ea8se-out;
+  transition: all 0.8s  ease;
+  -webkit-transition: all 0.8s  ease;
+  -moz-transition: all 0.8s  ease;
+  -ms-transition: all 0.8s  ease;
+  -o-transition: all 0.8s  ease;
 }
 
 .arrow1 span {
@@ -241,11 +241,11 @@ html {
 .active {
   max-height: fit-content;
   transition: all 1s;
-  -webkit-transition: max-height 0.8s ea8se-out;
-  -moz-transition: max-height 0.8s ea8se-out;
-  -ms-transition: max-height 0.8s ea8se-out;
-  -o-transition: max-height 0.8s ea8se-out;
-  transition: max-height 0.8s ea8se-out;
+  transition: all 0.8s  ease;
+  -webkit-transition: all 0.8s  ease;
+  -moz-transition: all 0.8s  ease;
+  -ms-transition: all 0.8s  ease;
+  -o-transition: all 0.8s  ease;
 }
 
 .active-arrow span {
